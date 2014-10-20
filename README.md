@@ -37,6 +37,8 @@ To leave the virtual environment, simply deactivate it:
 (env)user@host:~/home/sandbox$ deactivate 
 ```
 
+### Homework
+
 Before we take some first steps in numpy in the next section, please take some time to familiarize yourself with git and github. In particular, please clone this repository on your machine - preferably into the directory in which you have installed the virtual environment (`in this case, /home/sandbox/`).
 In upcoming commits, this repository will be updated with project files and assignments.
 
