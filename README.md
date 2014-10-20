@@ -48,6 +48,7 @@ In upcoming commits, this repository will be updated with project files and assi
 Make sure that your virtualenv is activated and that numpy is installed. 
 
 The file 'distributions.csv' contains a large number of samples from three different distributions.
+Load this file with numpy, and plot the three distributions (Hint: matplotlib!)
 
 Calculate mean values and standard deviations of each of these distributions and compare.
 
