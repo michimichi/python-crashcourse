@@ -1,15 +1,15 @@
-python-crashcourse
-==================
+#python-crashcourse
 
+The purpose of this repository is to provide a quick introduction into scientific computing with python for novices. 
 
-# Setting up the environment
+## Setting up the environment
 For now, we work with Python 2.7, since not all of the special libraries that we use have been ported to Python 3 yet.
 
     Make sure that you have Python 2.7 installed on your system. 
 
 In order to decouple our working environment from the system it runs on, we use a so-called **virtual environment**.  [Google is your friend here.](https://www.google.de/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=python%20virtualenv)
 
-    Install virtualenv on your system. This is presumably the last package that you have to install system-wide.
+    Install virtualenv on your system. This is presumably the last package for this introduction that you have to install system-wide.
     
 Create a virtual environment (how you do that, and in which place, is up to you). On a linux system, this looks like:
 ```{bash}
@@ -37,8 +37,12 @@ To leave the virtual environment, simply deactivate it:
 (env)user@host:~/home/sandbox$ deactivate 
 ```
 
-In the next section, you will take some first steps in numpy.
+Before we take some first steps in numpy in the next section, please take some time to familiarize yourself with git and github. In particular, please clone this repository on your machine - preferably into the directory in which you have installed the virtual environment (`in this case, /home/sandbox/`).
+In upcoming commits, this repository will be updated with project files and assignments.
 
 
+## First steps in numpy
+
+Make sure that your virtualenv is activated and that numpy is installed. 
 
 
